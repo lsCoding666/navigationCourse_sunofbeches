@@ -13,6 +13,9 @@
         <action
             android:id="@+id/to_forget_fragment"
             app:destination="@id/forgetFragment" />
+
+        <action android:id="@+id/to_agreement_activity"
+            app:destination="@id/agreement_activity"/>
     </fragment>
 
     <fragment
@@ -26,4 +29,7 @@
         android:name="net.shuzhi.navigationcourse.fragment.ForgetFragment">
 
     </fragment>
+
+    <activity android:name="net.shuzhi.navigationcourse.AgreementActivity"
+        android:id="@+id/agreement_activity"/>
 </navigation>

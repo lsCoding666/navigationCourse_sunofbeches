@@ -24,5 +24,9 @@ class LoginFragment :BaseFragment() {
             //跳转到忘记密码界面
             findNavController().navigate(R.id.to_forget_fragment)
         }
+        rootView.toAgreementBtn.setOnClickListener {
+            //跳转到忘记密码界面
+            findNavController().navigate(R.id.to_agreement_activity)
+        }
     }
 }

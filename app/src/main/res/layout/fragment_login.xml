@@ -24,4 +24,10 @@
         android:id="@+id/toForgetPageBtn"
         android:text="跳转到忘记密码界面"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toAgreementBtn"
+        android:text="跳转到用户协议界面"/>
+
 </LinearLayout>
