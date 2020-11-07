@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/loginFragment"
-    android:id="@+id/nav_config">
+    android:id="@+id/nav_config"
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/loginFragment"
         android:name="net.shuzhi.navigationcourse.fragment.LoginFragment">
-
+        <action
+            android:id="@+id/to_register_fragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/to_forget_fragment"
+            app:destination="@id/forgetFragment" />
     </fragment>
 
     <fragment

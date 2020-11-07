@@ -21,7 +21,7 @@ abstract class BaseFragment :Fragment(){
         return rootView
     }
 
-    open fun initView(rootView: View?) {
+    open fun initView(rootView: View) {
 
     }
 
