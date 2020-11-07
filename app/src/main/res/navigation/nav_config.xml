@@ -9,6 +9,10 @@
         android:name="net.shuzhi.navigationcourse.fragment.LoginFragment">
         <action
             android:id="@+id/to_register_fragment"
+            app:enterAnim="@anim/slide_from_right_to_left_in"
+            app:exitAnim="@anim/slide_from_right_to_left_out"
+            app:popEnterAnim="@anim/slide_from_left_to_right_in"
+            app:popExitAnim="@anim/slide_from_left_to_right_out"
             app:destination="@id/registerFragment" />
         <action
             android:id="@+id/to_forget_fragment"
