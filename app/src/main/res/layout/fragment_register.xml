@@ -12,4 +12,12 @@
         android:text="注册界面"
         android:layout_gravity="center"/>
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进行头像验证"
+        android:id="@+id/toAvatarVerify"
+        android:layout_gravity="center"/>
+
 </LinearLayout>

@@ -31,12 +31,25 @@
         android:id="@+id/registerFragment"
         android:name="net.shuzhi.navigationcourse.fragment.RegisterFragment">
 
+        <action
+            android:id="@+id/to_verify_fragment"
+            app:destination="@id/avatarVerifyFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/forgetFragment"
         android:name="net.shuzhi.navigationcourse.fragment.ForgetFragment">
 
+    </fragment>
+
+    <fragment
+        android:id="@+id/avatarVerifyFragment"
+        android:name="net.shuzhi.navigationcourse.fragment.AvatarVeifyFragment">
+        <action
+            android:id="@+id/to_login_page"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/loginFragment" />
     </fragment>
 
     <activity
